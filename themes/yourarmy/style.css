@@ -1,0 +1,289 @@
+/*
+Theme Name: Your Army
+Author: Linear Blue - RS
+Author URI: https://linearblue.com/
+Version: 1
+
+*/
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #2d2d2c;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+p { margin-bottom: 1em; }
+
+strong {
+	font-weight: bold;
+}
+    
+body {
+    background: url(img/bg_standard.png);
+    font-family: sans-serif;
+    background-repeat: repeat;
+}
+
+body.mof {    
+    background: url();
+    font-family: sans-serif;
+}
+
+header {
+    max-width: 2400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 790px;
+    background: transparent;
+}
+
+header img {
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: auto;
+    background: #f8f8f8;
+}
+
+section main {
+    width: 61%;
+    padding: 2.5%;
+    float: left;
+}
+
+section aside {
+    width: 38%;
+    padding: 2.5%;
+    float: right;
+}
+
+footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title h1, .title h4 {
+    padding: 10px 0 0;
+}
+
+.title h1 {
+    font-size: 36px;
+}
+
+.title h4 {
+    font-size: 18px;
+}
+
+/* CONTENT */
+
+.more_content {
+    display: none;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background: #717e86;
+    color: white;
+    font-weight: bold;
+    padding: 0 30px;
+    display: inline-block;
+    clear: both;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 47px;
+    line-height: 47px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.btn.wide {
+    padding: 0 60px;
+}
+
+.social_icons {
+    background: #717e86;
+    width: 78px;
+    height: 78px;
+    border-radius: 8px;
+    padding: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social_icons.small {
+    background: #44732d;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.social_icons i {
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    display: inline-block;
+    background-size: 42px;
+}
+
+.social_icons.small i {
+    height: 32px;
+    width: 32px;
+    background-size: 32px;
+}
+
+.social_icons .twitter {
+    background-image: url(img/twitter_icon.png);
+}
+
+.social_icons .facebook {
+    background-image: url(img/facebook_icon.png);
+}
+
+.social_icons .music_note {
+    background-image: url(img/music_note_icon.png);
+}
+
+footer {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+footer .social {
+    float: right;
+}
+
+footer .logo {
+    float: left;
+}
+
+.tracks {
+    margin-bottom: 15px;
+}
+
+.tracks div {
+    line-height: 22px;
+}
+
+.tracks div .download_btns {
+    width: 90px;
+    float: right;
+}
+
+.tracks div .track_number {
+    width: 25px;
+    float: left;
+    display: inline-block;
+    height: 50px;
+}
+
+.tracks div .download_btns .play_btn {
+    background: url(img/play_btn.png);
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.tracks div .download_btns .play_btn:hover {
+    background: url(img/play_btn_active.png);
+}
+
+.tracks div .download_btns .dl_btn {
+    background: url(img/play_btn.png);
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.tracks div .download_btns .dl_btn:hover {
+    background: url(img/play_btn_active.png);
+    transform: rotate(90deg);
+}
+
+.tracks div.active {
+    color: #44732d;
+}
+
+.tracks div.active .download_btns .play_btn {
+    background: url(img/play_btn_active.png);
+}
+
+.tracks div.active .download_btns .dl_btn {
+    background: url(img/play_btn_active.png);
+    transform: rotate(90deg);
+}
+
+.dl_area {
+    margin: 0 auto;
+    padding: 5%;
+    background: #e0e0e0;
+    border-radius: 8px;
+    display: none;
+    margin-bottom: 16px;
+}
+
+.dl_area a {
+    color: #2d2d2c;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.dl_area a:hover {
+    color: #6db649;
+}
+
+.btn.comment_btn {
+    float: right;
+    position: relative;
+    padding-right: 50px;
+}
+
+.btn.comment_btn i.icon {
+    background: url(img/comment_icon.png);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+}
+
+.player {
+    margin-bottom: 16px;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.mindsonfire .btn, .mindsonfire .social_icons, .mindsonfire .social_icons.small {
+    background: #0095db;
+}
